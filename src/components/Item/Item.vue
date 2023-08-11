@@ -12,14 +12,13 @@ import getProductById from '@/functions/getProductById.js';
         productRef.value = prod
     }
     
-    onMounted(() => {
-        getProduct()
-    });
-    
     function onAdd(counter){
         console.log(counter);
     }
-
+    
+    onMounted(() => {
+        getProduct()
+    });
 
 </script>
 
