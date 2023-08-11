@@ -1,14 +1,13 @@
 <script>
 import { RouterLink } from 'vue-router'
-
+import './navbar.css'
 
 </script>
 
 <template>
-      <nav >
-        <span>Logo</span>
-        <div>
-          <RouterLink to="/">Home</RouterLink>
+      <nav class="nav-nav">
+        <RouterLink to="/">Home</RouterLink>
+        <div class="div-nav">
           <RouterLink to="/products/all">Todos</RouterLink>
           <RouterLink to="/products/motorola">Motorola</RouterLink>
           <RouterLink to="/products/iphone">Iphone</RouterLink>
@@ -21,18 +20,3 @@ import { RouterLink } from 'vue-router'
 
 
 
-<style scoped>
-
-nav {
-  display: flex;
-  justify-content: space-around;
-}
-
-div {
-  display: flex;
-  justify-content: space-around;
-  background: red;
-  width: 550px;
-}
-
-</style>

@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.app {
+    @apply flex justify-center max-w-screen-2xl bg-red-600 mx-auto mt-5
+}

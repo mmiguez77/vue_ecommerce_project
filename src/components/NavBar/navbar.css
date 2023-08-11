@@ -1,0 +1,9 @@
+.div-nav {
+  @apply flex justify-around bg-red-500 w-1/3;
+
+}
+
+.nav-nav {
+  @apply flex justify-around mt-5
+}
+
